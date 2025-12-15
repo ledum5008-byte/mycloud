@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Góc Nhạc Riêng</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+    }
+
+    header {
+      background: #ff5500;
+      padding: 16px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .container {
+      padding: 15px;
+    }
+
+    .song {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 12px;
+      margin-bottom: 20px;
+    }
+
+    .song h2 {
+      font-size: 18px;
+      margin-bottom: 6px;
+    }
+
+    .song p {
+      font-size: 14px;
+      opacity: 0.8;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 215px;
+      border-radius: 10px;
+      border: none;
+    }
+
+    footer {
+      text-align: center;
+      opacity: 0.6;
+      padding: 10px;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<header>🎧 Góc Nghe Nhạc Riêng</header>
+
+<div class="container">
+
+  <!-- BÀI 1 -->
+  <div class="song">
+    <h2>💬 Bài nhắn nhủ – Ronboongz</h2>
+    <p>Nghe lúc mệt, lúc cần một người hiểu.</p>
+    <iframe 
+      src="https://www.youtube.com/embed/vfKiaXKO44M"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <!-- BÀI 2 -->
+  <div class="song">
+    <h2>🌧️ Nơi này có anh – Sơn Tùng M-TP</h2>
+    <p>Một nơi quen thuộc, có người từng chờ.</p>
+    <iframe 
+      src="https://www.youtube.com/embed/FN7ALfpGxiI"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+</div>
+
+<footer>
+  Một góc nhỏ để nghe nhạc cho riêng mình
+</footer>
+
+</body>
+</html>
